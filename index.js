@@ -33,9 +33,14 @@ function currentLine(currentLine) {
   }
 
   var l
-  var lineList
+  var lineList = "The line is currently: "
   for (l = 0; l < currentLine.length; l++) {
-    
+    if (l + 1 == currentLine.length) {
+      lineList += l + 1 + ". " + currentLine[l]
+    }
+    else {
+      lineList += l + 1 + ". " + currentLine[l] + ", "
+    }
   }
   return currentLine
 }
