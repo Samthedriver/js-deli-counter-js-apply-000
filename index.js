@@ -28,6 +28,5 @@ function nowServing(currentLine) {
 }
 
 function currentLine(line) {
-
-  
+  return line
 }
