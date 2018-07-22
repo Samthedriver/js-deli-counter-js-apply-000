@@ -27,6 +27,9 @@ function nowServing(currentLine) {
   return "Currently serving " + firstPerson + "."
 }
 
-function currentLine(line) {
+function currentLine(currentLine) {
+  if (currentLine === undefined || currentLine.length == 0) {
+    return "The line is currently empty."
+  }
   return line
 }
