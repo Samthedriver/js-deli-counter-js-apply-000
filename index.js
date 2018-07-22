@@ -31,5 +31,5 @@ function currentLine(currentLine) {
   if (currentLine === undefined || currentLine.length == 0) {
     return "The line is currently empty."
   }
-  return line
+  return currentLine
 }
