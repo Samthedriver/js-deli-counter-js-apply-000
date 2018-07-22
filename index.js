@@ -42,5 +42,5 @@ function currentLine(currentLine) {
       lineList += l + 1 + ". " + currentLine[l] + ", "
     }
   }
-  return currentLine
+  return lineList
 }
