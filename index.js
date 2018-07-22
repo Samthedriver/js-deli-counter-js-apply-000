@@ -31,5 +31,11 @@ function currentLine(currentLine) {
   if (currentLine === undefined || currentLine.length == 0) {
     return "The line is currently empty."
   }
+
+  var l
+  var lineList
+  for (l = 0; l < currentLine.length; l++) {
+    
+  }
   return currentLine
 }
